@@ -146,35 +146,6 @@ To run the tests in non-interactive mode, and discover all the test, you can use
 python3 -m unittest discover tests
 ```
 
-
-## 0x05 Usage
-
-* Start the console in interactive mode:
-
-```bash
-$ ./console.py
-(hbnb)
-```
-
-* Use help to see the available commands:
-
-```bash
-(hbnb) help
-
-Documented commands (type help <topic>):
-========================================
-EOF  all  count  create  destroy  help  quit  show  update
-
-(hbnb)
-```
-
-* Quit the console:
-
-```bash
-(hbnb) quit
-$
-```
-
 ## Authors
 <details>
     <summary>Somtochukwu Gregory Onyemma</summary>
