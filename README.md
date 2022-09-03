@@ -155,3 +155,12 @@ python3 -m unittest discover tests
     <li><a href="mailto:onyemmagregory@gmail.com">e-mail</a></li>
     </ul>
 </details>
+
+<details>
+   <summary>Jolade Sarah Okunlade</summary>
+   <ul>
+   <li><a href="https://www.github.com/jolah1">Github</a></li>
+   <li><a href="https://www.twitter.com/jolah99">Twitter</a></li>
+   <li><a href="jokunlade@gmail.com">e-mail</a></li>
+   </ul>
+</details>
