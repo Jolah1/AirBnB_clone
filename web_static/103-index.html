@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="images/icon.png" />
-    <link rel="stylesheet" href="styles/102-common.css" />
-    <link rel="stylesheet" href="styles/102-header.css" />
-    <link rel="stylesheet" href="styles/102-footer.css" />
-    <link rel="stylesheet" href="styles/102-filters.css" />
-    <link rel="stylesheet" href="styles/102-places.css" />
+    <link rel="stylesheet" href="styles/103-common.css" />
+    <link rel="stylesheet" href="styles/103-header.css" />
+    <link rel="stylesheet" href="styles/103-footer.css" />
+    <link rel="stylesheet" href="styles/103-filters.css" />
+    <link rel="stylesheet" href="styles/103-places.css" />
     <title>AirBnB clone</title>
   </head>
 
@@ -50,7 +50,7 @@
     </header>
 
     <div class="container">
-      <section class="filters">
+      <section class="filters" role="navigation">
         <div class="locations">
           <h3>States</h3>
           <h4>Abuja, Lagos...</h4>
@@ -194,6 +194,8 @@
             </ul>
           </div>
         </article>
+        <!--end folly house-->
+
         <article>
           <h2>A Suite</h2>
           <div class="price_by_night">$700</div>
@@ -246,9 +248,10 @@
             </ul>
           </div>
         </article>
+        <!--end suite-->
 
         <article>
-          <!-- My home -->
+          <!-- Gold house -->
           <div class="article_places_header">
             <h2>Gold House</h2>
             <div class="price_by_night">$1000</div>
@@ -303,7 +306,7 @@
             </ul>
           </div>
         </article>
-        <!-- end My home -->
+        <!-- end gold house -->
 
         <article>
           <!-- Treasure house -->
@@ -423,7 +426,8 @@
       </section>
       <!-- end section -->
     </div>
-    <footer>
+
+    <footer aria-label="Footer brand information">
       <p>Best School</p>
     </footer>
   </body>
