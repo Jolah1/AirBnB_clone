@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
+    <link rel="stylesheet" href="styles/102-common.css" />
+    <link rel="stylesheet" href="styles/102-header.css" />
+    <link rel="stylesheet" href="styles/102-footer.css" />
+    <link rel="stylesheet" href="styles/102-filters.css" />
+    <link rel="stylesheet" href="styles/102-places.css" />
+    <title>AirBnB clone</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="mobile_nav">
+        <label for="main_check" class="main_nav_burguer">|||</label>
+        <input
+          type="checkbox"
+          id="main_check"
+          name="main_check"
+          class="main_nav_check"
+        />
+        <nav>
+          <ul class="nav_bar_level1">
+            <li>
+              <label for="second_check"><span>States</span></label>
+              <input type="checkbox" name="second_check" id="second_check" />
+              <ul>
+                <li><span>Arizona</span></li>
+                <li><span>California</span></li>
+              </ul>
+            </li>
+            <li>
+              <label for="third_check"><span>Amenities</span></label>
+              <input type="checkbox" name="second_check" id="third_check" />
+              <ul>
+                <li><span>Internet</span></li>
+                <li><span>Tv</span></li>
+                <li><span>Wifi</span></li>
+                <li><span>Kitchen</span></li>
+                <li><span>Iron</span></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- final del main_nav_bar -->
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>Abuja, Lagos...</h4>
+          <ul class="popover">
+            <li>
+              <h2>Lagos:</h2>
+              <ul>
+                <li>Ikeja</li>
+                <li>Victoria Island</li>
+              </ul>
+            </li>
+            <li>
+              <h2>Abuja:</h2>
+              <ul>
+                <li>Gwarimpa</li>
+                <li>Lugbe</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen, Electricity...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>Tv</li>
+            <li>Kitchen</li>
+            <li>Iron</li>
+          </ul>
+        </div>
+        <button type="button" name="button">Search</button>
+      </section>
+      <!-- end fiter-->
+
+      <section class="places">
+        <h1>Places</h1>
+        <article>
+          <!-- My home -->
+          <div class="article_places_header">
+            <h2>My Home</h2>
+            <div class="price_by_night">$500</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div>
+          <!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Jola Baby</p>
+          </div>
+          <!-- end user -->
+          <div class="description">
+            <p>
+              This is a lovely 1 bathroom apartament that can accommodate 2
+              people. It locates at the center of Abuja and next to subway line
+              1, 1 stop to People Square, 2 stops to Bund, 3 stops to Jungan
+              Temle.
+            </p>
+          </div>
+          <!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+              </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+              </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+              </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From queen chiko the 27th August 2022</h3>
+                <p>Jola is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Bola 4th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!-- end My home -->
+
+        <article>
+          <h2>Folly House</h2>
+          <div class="price_by_night">$600</div>
+          <div class="information">
+            <div class="max_guest">4 Guests</div>
+            <div class="number_rooms">2 Bedrooms</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div>
+          <!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Folarin Baby</p>
+          </div>
+          <!-- end user -->
+          <div class="description">
+            <p>
+              Our place is a private, afffordable stand-alone guest house
+              centrally located just minutes to French Quarters, downtown the
+              Fair Grounds (Jazz Fest) and City Park. The guest house is a
+              quaint, 400 suare ft. with a full bath, mini kitchen, & livin
+              room. The extra high cellings make the home feel more spacious.
+              The sofa converts to bed also. We have a hand made counter area
+              that adds character to the room and a great porch/deck to relax on
+              and have a glass of Merlot.
+            </p>
+          </div>
+          <!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+              </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Treasure the 15th August 2022</h3>
+                <p>Folly is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Sandy 4th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h2>A Suite</h2>
+          <div class="price_by_night">$700</div>
+          <div class="information">
+            <div class="max_guest">5 Guests</div>
+            <div class="number_rooms">3 Bedroom</div>
+            <div class="number_bathrooms">2 Bathroom</div>
+          </div>
+          <!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Kay Roy</p>
+          </div>
+          <!-- end user -->
+          <div class="description">
+            <p>
+              First loft built by Holbies. It contains a decked terrace,
+              jacuzzi, firepit, rabbits garden, two rooms, two balconies,
+              entrance gate, private garden, private parking, BBQ area, AC in
+              each bedroom, technological equipment, luxury beds, and mountain
+              views. Ideal for architecture lovers, romantic dates, or having a
+              good time. It is a unique space of his kind. Only pets that do not
+              harm rabbits are allowed.
+            </p>
+          </div>
+          <!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+              </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+              </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+              </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Joy the 15th August, 2022</h3>
+                <p>I love this place. Amazing!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <!-- My home -->
+          <div class="article_places_header">
+            <h2>Gold House</h2>
+            <div class="price_by_night">$1000</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div>
+          <!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>Iya Koko</p>
+          </div>
+          <!-- end user -->
+          <div class="description">
+            <p>
+              This is a lovely 1 bathroom apartament that can accommodate 2
+              people. It locates at the center of Shanghai and next to subway
+              line 1, 1 stop to People Square, 2 stops to Bund, 3 stops to
+              Jungan Temle.
+            </p>
+          </div>
+          <!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+              </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+              </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+              </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From chiko the 27th August 2022</h3>
+                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Hannah 4th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!-- end My home -->
+
+        <article>
+          <!-- My home -->
+          <div class="article_places_header">
+            <h2>Treasure House</h2>
+            <div class="price_by_night">$800</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div>
+          <!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>Tummise Baby</p>
+          </div>
+          <!-- end user -->
+          <div class="description">
+            <p>
+              This is a lovely 1 bathroom apartament that can accommodate 2
+              people. It locates at the center of Shanghai and next to subway
+              line 1, 1 stop to People Square, 2 stops to Bund, 3 stops to
+              Jungan Temle.
+            </p>
+          </div>
+          <!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+              </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+              </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+              </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From koje the 27th August 2022</h3>
+                <p>Derin is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Alhaji 4th January 2021</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!-- end My home -->
+
+        <article>
+          <!-- My home -->
+          <div class="article_places_header">
+            <h2>Chiko House</h2>
+            <div class="price_by_night">$900</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">8 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div>
+          <!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Chiko Mary</p>
+          </div>
+          <!-- end user -->
+          <div class="description">
+            <p>
+              This is a lovely 1 bathroom apartament that can accommodate 2
+              people. It locates at the center of Shanghai and next to subway
+              line 1, 1 stop to People Square, 2 stops to Bund, 3 stops to
+              Jungan Temle.
+            </p>
+          </div>
+          <!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+              </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+              </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+              </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From seyi bobo the 27th August 2022</h3>
+                <p>The man is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Anonymous 4th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!-- end My home -->
+      </section>
+      <!-- end section -->
+    </div>
+    <footer>
+      <p>Best School</p>
+    </footer>
+  </body>
+</html>
